@@ -1,69 +1,70 @@
-# Prueba Técnica - Programador (Front-end)
+# Getting Started with Create React App
 
-La siguiente es una prueba para evaluar a los postulantes a programador **Front-end**.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## INTRODUCCIÓN
+## Available Scripts
 
-Este repositorio contiene una serie de requerimientos de un Caso Práctico, que busca evaluar las capacidades técnicas del candidato con respecto a las principales funciones y responsabilidades que se requieren dentro del área de Desarrollo de Tecnología.
+In the project directory, you can run:
 
-#### ¿Qué se busca evaluar?
+### `npm start`
 
-Principalmente los siguientes aspectos:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-+ Creatividad para resolver los requerimientos,
-+ Calidad del código entregado (estructura y buenas prácticas),
-+ Eficiencia de los algoritmos entregados,
-+ Familiaridad con Frameworks y plataformas de desarrollo Web.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## IMPORTANTE
-1. Asegúrate de tener `Node.js` y `npm` instalados.
+### `npm test`
 
-2. Se solicita crear la aplicación utilizando estas tecnologías:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-[React ](https://es.reactjs.org/)** + SCSS**
+### `npm run build`
 
-3. Se requiere de una **cuenta de GitHub** para realizar este ejercicio.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-4.  **Antes de comenzar a programar:**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-* Realizar un `Fork` de este repositorio (https://github.com/iseijasunow/Prueba-Tecnica_Front-end).
-* Clonar el fork a su máquina local `git clone git@github.com:USERNAME/FORKED-PROJECT.git`
-* Crear un `branch` en su cuenta de GitHub utilizando su nombre completo.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-5.  **Al finalizar**, existen 2 (dos) opciones para entregar su proyecto:
+### `npm run eject`
 
-* 1) Realizar un `Commit` de su proyecto, **enviar un `Pull Request` al branch con su NOMBRE**, y notificar a la siguiente dirección de correo electrónico [mrequena@unow.es](mailto:mrequena@unow.es).
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-* 2) Crear un archivo comprimido (_.zip_ o _.rar_) de su proyecto y enviar a la siguiente dirección de correo electrónico [mrequena@unow.es](mailto:mrequena@unow.es).
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## EJERCICIO PRÁCTICO
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**Objetivo:** Crear una aplicación que ayude a obtener una lista de usuarios y muestre la información de sus perfiles, explotando el API Rest pública de GitHub https://api.github.com/search/users?q=YOUR_NAME. 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-**Nota** YOUR_NAME es un query string "parámetro"
+## Learn More
 
- 
-#### Requerimientos generales
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-1. La aplicación debe cumplir con los siguientes **requisitos funcionales:**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- Crear una aplicación que incluya un campo de entrada texto y un botón, para que se pueda capturar el usuario y recuperar la información utilizando el API anteriormente indicada.
+### Code Splitting
 
-- Mostrar los primeros 10 usuarios del resultado de la búsqueda, incluyendo su nombre de usuario (`'user.login'`) y el id (`'user.id'`) de cada registro.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- Convertir cada Perfil de usuario en un enlace, para que al hacer clic en cada registro, navegue a una ruta que incluya la propiedad `'user.login'` como parámetro.
+### Analyzing the Bundle Size
 
-- Crear un componente independiente en el que se lea el parámetro de la URL, y a continuación, obtenga los datos de dicho usuario mediante la siguiente API: https://api.github.com/users/YOUR_NAME
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- Incluir la imagen del usuario (`'avatar_url'`) y alguna otra información (de su elección) en el componente.
+### Making a Progressive Web App
 
-- Incluir un validador que verifique que el texto de búsqueda de usuarios sea de un mínimo de 4 caracteres, y otro que NO permita realizar la búsqueda de la palabra **“iseijasunow”**.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- Integrar cualquier librería de gráficos que pueda encontrar y crear un gráfico de barras simple para mostrar el número de seguidores de los 10 primeros usuarios.
+### Advanced Configuration
 
-- Incluir un componente para mostrar mensajes de Errores Generales en toda la aplicación.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-2.  **CSS:** Utilizar CSS Grid y/o CSS Flexbox, para la maquetación del proyecto 
+### Deployment
 
-3.  **Iconos:** Utilizar una librería para el manejo de iconos donde lo considere necesario (_se recomienda el uso de [Font Awesome](http://fontawesome.io/) o [Glyphicons](http://glyphicons.com/)._)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
